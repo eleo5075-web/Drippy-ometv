@@ -1,6 +1,36 @@
-# Drippy-ometv
-Gets the other user's public IP and looks up their approximate location using the IPGeolocation API. Shows the country, city, ISP, timezone, and a snapshot in a floating panel.
+# OmeTV Uncover
 
-This script adds a panel to OmeTV that waits until you connect with someone. When it detects the other person's public IP through the WebRTC connection, it uses your IPGeolocation API key to look up approximate information like their country, city, region, ISP, language, coordinates, and time zone, then displays it in the panel. It also captures a snapshot of the other person's video once it's available.
+Real-time IP address and geolocation tool for **OmeTV**.
 
-To use it, create a free account at IPGeolocation and copy your API key. Open the script, find `let apiKey = "";`, and replace the empty quotes with your key. Then open OmeTV in your browser, press **F12**, go to the **Console** tab, paste the entire script, and press **Enter**. Once you connect to someone, the panel will automatically show any information it can retrieve. The location is only an estimate based on the detected public IP, so it may not always be accurate, and if OmeTV changes how it handles connections, some features may stop working.
+Displays the other person's:
+- IP Address
+- Country, Region & City
+- ISP
+- Timezone + Current Time
+- Takes an automatic snapshot of the person
+
+---
+
+### Features
+- Works in real-time using WebRTC
+- Clean draggable floating panel
+- Automatic snapshot capture
+- Clean dark UI
+
+---
+
+### How to Use
+
+1. Go to [ome.tv](https://ome.tv)
+2. Paste the script into your browser console (F12 → Console)
+3. Press Enter
+4. The panel will appear automatically when someone connects
+
+> **Note:** You need to add your own `apiKey` from [ipgeolocation.io](https://ipgeolocation.io)
+
+---
+
+### Setup
+
+```js
+let apiKey = "YOUR_API_KEY_HERE";
