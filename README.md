@@ -34,3 +34,6 @@ Displays the other person's:
 
 ```js
 let apiKey = "YOUR_API_KEY_HERE";
+
+Disclaimer
+This tool is for educational purposes only. Use responsibly and respect others' privacy.
