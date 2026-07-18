@@ -24,7 +24,7 @@ panel.style.cssText = `
 
 panel.innerHTML = `
     <div id="header" style="margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid #222;display:flex;justify-content:space-between;align-items:center;">
-        <strong style="font-size:16px;letter-spacing:0.5px;">OmeTV Uncover</strong>
+        <strong style="font-size:16px;letter-spacing:0.5px;">DrippyGum-Github</strong>
 
         <div style="display:flex;gap:8px;align-items:center;">
             <span id="status" style="color:#888;font-size:13px;padding:5px 12px;background:#111;border-radius:9999px;">
@@ -193,4 +193,4 @@ async function getLocation(ip) {
 }
 
 
-console.log("%cOmeTV Uncover", "color:#555; font-size:15px;");
+console.log("%cDrippyGum-Github", "color:#555; font-size:15px;");
