@@ -1,4 +1,4 @@
-let apiKey = "";
+let apiKey = "1f67bb8c90d244b4ac3428421f38f01e";
 
 const panel = document.createElement('div');
 panel.style.cssText = `
